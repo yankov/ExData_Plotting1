@@ -1,0 +1,268 @@
+hist(data$gap/10000, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power")
+hist(data$gap/10000, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power",freq=false)
+hist(data$gap/10000, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power",freq=0)
+hist(data$gap/10000, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power")
+hist(data$gap/10000, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power", breaks=6)
+hist(data$gap/10000, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power", breaks=Seq(0,2,4,6))
+hist(data$gap/10000, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power", breaks=c(0,2,4,6))
+hist(data$gap/10000, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power", breaks=seq(0,2,4,6))
+hist(data$gap/10000, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power", breaks=Seq(0,2,4,6))
+hist(data$gap, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power", breaks=Seq(0,2,4,6))
+hist(data$gap, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power", breaks=c(0,2,4,6))
+hist(data$gap, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power")
+hist(data$gap, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power",plot=true)
+hist(data$gap, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power",plot=TRUE)
+hist(data$gap, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power",plot=TRUE, xlim=6)
+hist(data$gap, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power",plot=TRUE, xlim=c(0,2,4,6))
+hist(data$gap, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power",plot=TRUE, xlim=c(2,4,6))
+hist(data$gap, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power",plot=TRUE, xlim=c(6))
+hist(data$gap, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power",plot=TRUE)
+hist(data$gap, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power",plot=TRUE)
+hist(data$gap, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power", breaks=0:6)
+hist(data$gap, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power", xaxt="n")
+hist(data$gap, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power", right=FALSE)
+hist(data$gap, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power", xlim=c(0,6))
+hist(data$gap, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power", xlim=c(0,6,2))
+hist(data$gap, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power", ylim=c(0,1200))
+hist(data$gap, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power", ylim=c(0,12000))
+summary(data)
+df[df$Global_active_power=='?',]$Global_active_power <- NA
+df
+df[df$Global_active_power=='?',]$Global_active_power <- NA
+df$Global_active_power
+df$gap <- as.numeric(as.character(df$Global_active_power))
+hist(df$gap, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power")
+data <- read.csv("", dep=";", na.strings=c("?"))
+data <- read.csv("household_power_consumption.txt", dep=";", na.strings=c("?"))
+getwd()
+getwd()
+data <- read.csv("household_power_consumption.txt", sep=";", na.strings=c("?"))
+data$Date2 <- as.Date(as.character(data$Date), "%y/%m/%d")
+df = data[data$Date2 == "2007-02-01" | data$Date2 == "2007-02-02", ]
+df$gap <- as.numeric(as.character(df$Global_active_power))
+hist(df$gap, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power")
+df$gap
+df = data[data$Date2 == "2007-02-01" | data$Date2 == "2007-02-02", ]
+df
+data[1,]
+df = data[data$Date2 == "01/02/2007" | data$Date2 == "02/02/2007", ]
+df
+df = data[data$Date2 == "01/02/2007" | data$Date2 == "02/02/2007", ]
+data[10,]
+df = data[data$Date2 == "2007-02-01" | data$Date2 == "2007-02-02", ]
+df = data[data$Date == "01/02/2007" | data$Date == "02/02/2007", ]
+df[3,]
+df = data[data$Date == "01/02/2007" | data$Date == "02/02/2007", ]
+class(data$Date)
+data$Da
+data$Date
+data$Date
+data$Date2
+df = data[data$Date2 == "2007-02-01" | data$Date2 == "2007-02-02", ]
+df
+df = data[data$Date2 == "2007-02-01" | data$Date2 == "2007-02-02", ]
+data$Date
+data <- read.csv("household_power_consumption.txt", sep=";", na.strings=c("?"))
+data$Date2 <- as.Date(as.character(data$Date), "%d/%m/%y")
+df = data[data$Date2 == "2007-02-01" | data$Date2 == "2007-02-02", ]
+df
+df = data[data$Date2 == "2007-02-01" | data$Date2 == "2007-02-02", ]
+df
+df = data[data$Date2 == "2007-02-01" | data$Date2 == "2007-02-02", ]
+data$Dat
+data$Date
+data$Date2
+df = data[(data$Date2 == "2007-02-01" | data$Date2 == "2007-02-02"), ]
+df
+data[1,]
+df = data[(data$Date2 == "2007-02-01", ]
+df = data[data$Date2 == "2007-02-01", ]
+df
+df = data[data$Date2 == "2007-02-01", ]
+data[1,]
+data[10,]
+data[10,]
+class(data$Date2)
+data$Date2 <- as.Date(data$Date, "%d/%m/%y")
+class(data$Date2)
+df = data[data$Date2 == "2007-02-01", ]
+df
+df
+df = data[data$Date2 == "2007-02-01" ]
+df
+data <- read.csv("household_power_consumption.txt", sep=";", na.strings=c("?"))
+data[1,]
+data$Date2 <- as.Date(data$Date, "%d/%m/%y")
+data$Date2
+df = data[data$Date2 == "2007-02-01" | data$Date2 == "2007-02-02", ]
+df <- data[data$Date2 == "2007-02-01" | data$Date2 == "2007-02-02", ]
+df
+df <- data[data$Date2 == "2007-02-01" | data$Date2 == "2007-02-02", ]
+df <- data[data$Date2 >= "2007-02-01" | data$Date2 <= "2007-02-02", ]
+df
+df$gap <- as.numeric(as.character(df$Global_active_power))
+hist(df$gap, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power")
+history
+history()
+data <- read.csv("household_power_consumption.txt", dep=";")
+data <- read.csv("household_power_consumption.txt", sep=";")
+data[1,]
+data$Date2 <- as.Date(as.character(data$Date), "%d/%m/%y")
+df = data[data$Date2 == "2007-02-01" | data$Date2 == "2007-02-02", ]
+df
+data$Date2 <- as.Date(as.character(data$Date), "%d/%m/%Y")
+df = data[data$Date2 == "2007-02-01" | data$Date2 == "2007-02-02", ]
+df
+data <- read.csv("household_power_consumption.txt", dep=";", na.strings=c("?"))
+data <- read.csv("household_power_consumption.txt", sep=";", na.strings=c("?"))
+data$Date2 <- as.Date(as.character(data$Date), "%d/%m/%Y")
+df = data[data$Date2 == "2007-02-01" | data$Date2 == "2007-02-02", ]
+df
+df$gap <- as.numeric(as.character(df$Global_active_power))
+hist(df$gap, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power")
+hist(df$gap)
+par(col = "red")
+hist(df$gap)
+?par
+hist(df$gap, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power")
+dev.copy(png, file = "plot1.png")
+dev.off()
+plot(df$Date2, df$gap)
+/.par
+?par
+plot(df$Date2, df$gap)
+plot(df$Date2$Time, df$gap)
+df$Date2$Ti
+df$Date2$Time
+df$Date2,$Time
+plot(df$Time, df$gap)
+plot(df$Date, df$gap)
+plot(df$Date2, df$gap)
+df$Date3 <- paste(df$Date2, df$Time, sep=" ")
+plot(df$Date3, df$gap)
+df$Date3
+class(df$Date3)
+as.Date(df$Date3)
+class(as.Date(df$Date3))
+df$Date4 <- as.Date(df$Date)
+plot(df$Date4, df$gap)
+df$Date4[1,]
+df$Date4
+df$Date4[4]
+df$Date4[0]
+df$Date3
+as.Date(df$Date3, "%Y-%m-%d %h:%m:%s")
+as.Date(df$Date3, "%y-%m-%d %h:%m:%s")
+as.Date(df$Date3, "%y-%m-%d %H:%m:%s")
+as.Date(df$Date3, "%Y-%m-%d %h:%m:%s")
+df$Dat
+df$Date3
+class(df$Date3)
+as.Date(as.character(df$Date3), "%Y-%m-%d %h:%m:%s")
+df$Date3
+as.Date(as.character(df$Date3), "%y-%m-%d %h:%m:%s")
+df$Date3
+as.Date(as.character(df$Date3), "%Y-%m-%d %H:%M:%S")
+df$Date4 <- as.Date(as.character(df$Date3), "%Y-%m-%d %H:%M:%S")
+df$Date4
+df$Date4[0]
+df$Date4[4]
+df$Date4
+class(df$Date4)
+plot(df$Date4, df$gap)
+plot(df$Date4, df$gap)
+df$Date
+df$Date4
+df$Date3
+df$Date4 <- as.Date(as.character(df$Date3), "%Y-%m-%d %H:%M:%S")
+df$Date4
+df$Date3
+strptime(df$Date3, format = "%Y-%m-%d %H:%M:%S")
+df$Date4 <- strptime(df$Date3, format = "%Y-%m-%d %H:%M:%S")
+plot(df$Date4, df$gap)
+plot(df$Date4, df$gap, type="l")
+plot(df$Date4, df$gap, type="l", ylab="Global Active Power (kilowatts)", xlab="")
+df$Date3 <- paste(df$Date2, df$Time, sep=" ")#
+df$Date4 <- strptime(df$Date3, format = "%Y-%m-%d %H:%M:%S")#
+plot(df$Date4, df$gap, type="l", ylab="Global Active Power (kilowatts)", xlab="")
+dev.copy(png, file = "plot2.png")
+dev.off()
+summary(df)
+4
+df$Date3 <- paste(df$Date2, df$Time, sep=" ")#
+df$Date4 <- strptime(df$Date3, format = "%Y-%m-%d %H:%M:%S")#
+plot(df$Sub_metering_1, df$gap, type="l", ylab="Global Active Power (kilowatts)", xlab="")
+4
+plot(df$Date4, df$Sub_metering_1, type="l", ylab="Global Active Power (kilowatts)", xlab="")
+plot(df$Date4, df$Sub_metering_2, type="l", ylab="Global Active Power (kilowatts)", xlab="")
+plot(df$Date4, df$Sub_metering_3, type="l", ylab="Global Active Power (kilowatts)", xlab="")
+plot(df$Date4, df$Sub_metering_1, type="l", ylab="Global Active Power (kilowatts)", xlab="")
+plot(df$Date4, df$Sub_metering_3, type="l", ylab="Global Active Power (kilowatts)", xlab="")
+plot(df$Date4, df$Sub_metering_3, type="l")
+plot(df$Date4, df$Sub_metering_3, type="l", ylab="Energy sub metering", xlab="")
+plot(df$Date4, df$Sub_metering_1, type="l", ylab="Energy sub metering", xlab="")
+plot(df$Date4, df$Sub_metering_1)
+plot(df$Date4, df$Sub_metering_2)
+plot(df$Date4, df$Sub_metering_3)
+plot(df$Date4, df$Sub_metering_1, type="l", ylab="Energy sub metering", xlab="")
+with(df, plot(df$Date4, df$Sub_metering_1, type="l", ylab="Energy sub metering", xlab="")
+plot(df$Date4, df$Sub_metering_1, type="l", ylab="Energy sub metering", xlab="")
+plot(df$Date4, df$Sub_metering_1, type="l", ylab="Energy sub metering", xlab="")
+plot(df$Date4, df$Sub_metering_1, type="l", ylab="Energy sub metering", xlab="")
+lines(df$Date4, df$Sub_metering_2, type="l", ylab="Energy sub metering", xlab="")
+lines(df$Date4, df$Sub_metering_3, type="l", ylab="Energy sub metering", xlab="")
+plot(df$Date4, df$Sub_metering_1, type="l", ylab="Energy sub metering", xlab="")
+plot(df$Date4, df$Sub_metering_2, type="l", ylab="Energy sub metering", xlab="")
+plot(df$Date4, df$Sub_metering_3, type="l", ylab="Energy sub metering", xlab="")
+plot(df$Date4, df$Sub_metering_1, type="l", ylab="Energy sub metering", xlab="")
+lines(df$Date4, df$Sub_metering_2, type="l", color="red")
+lines(df$Date4, df$Sub_metering_2, type="l", col="red")
+plot(df$Date4, df$Sub_metering_1, type="l", ylab="Energy sub metering", xlab="")
+lines(df$Date4, df$Sub_metering_2, type="l", col="red")
+lines(df$Date4, df$Sub_metering_3, type="l", col="blue")
+legend("topright", lty = 1, col = c("black", "red", "blue"), legend = c("Sub_metering_1","Sub_metering_2", "Sub_metering_3"))
+dev.copy(png, file="plot3.png")
+dev.off()
+plot(df$Date4, df$gap, type="l", ylab="Global Active Power", xlab="")
+plot(df$Date4, df$Voltage, type="l", ylab="Voltage", xlab="datetime")
+plot(df$Date4, df$Global_reactive_power, type="l", ylab="Voltage", xlab="datetime")
+plot(df$Date4, df$Global_reactive_power, type="l", ylab="Global Reactive Power", xlab="datetime")
+par()
+4
+par(mfrow=c(2,2))
+plot(df$Date4, df$gap, type="l", ylab="Global Active Power", xlab="")
+plot(df$Date4, df$Voltage, type="l", ylab="Voltage", xlab="datetime")
+plot(df$Date4, df$Sub_metering_1, type="l", ylab="Global Active Power (kilowatts)", xlab="")
+lines(df$Date4, df$Sub_metering_2, type="l", color="red")
+lines(df$Date4, df$Sub_metering_2, type="l", col="red")
+lines(df$Date4, df$Sub_metering_3, type="l", color="blue")
+plot(df$Date4, df$gap, type="l", ylab="Global Active Power", xlab="")
+par(mfrow=c(2,2))
+plot(df$Date4, df$gap, type="l", ylab="Global Active Power", xlab="")
+plot(df$Date4, df$Voltage, type="l", ylab="Voltage", xlab="datetime")
+plot(df$Date4, df$Sub_metering_1, type="l", ylab="Global Active Power (kilowatts)", xlab="")
+lines(df$Date4, df$Sub_metering_2, type="l", col="red")
+lines(df$Date4, df$Sub_metering_3, type="l", col="blue")
+plot(df$Date4, df$Global_reactive_power, type="l", ylab="Global Reactive Power", xlab="datetime")
+par(mfrow=c(2,2))#
+plot(df$Date4, df$gap, type="l", ylab="Global Active Power", xlab="")#
+plot(df$Date4, df$Voltage, type="l", ylab="Voltage", xlab="datetime")#
+#
+plot(df$Date4, df$Sub_metering_1, type="l", ylab="Energy syb metering", xlab="")#
+lines(df$Date4, df$Sub_metering_2, type="l", col="red")#
+lines(df$Date4, df$Sub_metering_3, type="l", col="blue")#
+plot(df$Date4, df$Global_reactive_power, type="l", ylab="Global Reactive Power", xlab="datetime")
+par(mfrow=c(2,2))#
+plot(df$Date4, df$gap, type="l", ylab="Global Active Power", xlab="")#
+plot(df$Date4, df$Voltage, type="l", ylab="Voltage", xlab="datetime")#
+#
+plot(df$Date4, df$Sub_metering_1, type="l", ylab="Energy sub metering", xlab="")#
+lines(df$Date4, df$Sub_metering_2, type="l", col="red")#
+lines(df$Date4, df$Sub_metering_3, type="l", col="blue")#
+plot(df$Date4, df$Global_reactive_power, type="l", ylab="Global Reactive Power", xlab="datetime")
+dev.copy(png, "plot4.png")
+dev.off()
+hist(df$gap, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power")
+hist(df$Global_reactive_power, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power")
+hist(df$Global_active_power, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power")
+hist(df$Global_active_power, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power")
